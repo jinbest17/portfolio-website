@@ -91,17 +91,18 @@
 									</a>
 								</li>	
 								<li>
+									<a class="mdl-navigation__link border-top-sep" data-scroll href="#portfolio_sec">
+										<i class="zmdi zmdi-case pr-15"></i>
+										<span class="font-capitalize">portfolio</span>
+									</a>
+								</li>
+								<li>
 									<a class="mdl-navigation__link border-top-sep" data-scroll href="#skills_sec">
 										<i class="zmdi zmdi-cutlery pr-15"></i>
 										<span class="font-capitalize">skills</span>
 									</a>
 								</li>
-								<li>
-									<a class="mdl-navigation__link border-top-sep" data-scroll href="#portfolio_sec">
-										<i class="zmdi zmdi-case pr-15"></i>
-										<span class="font-capitalize">portfolio</span>
-									</a>
-								</li>	
+									
 								<li>
 									<a class="mdl-navigation__link border-top-sep" data-scroll href="#experience_sec">
 										<i class="zmdi zmdi-shield-check pr-15"></i>
@@ -219,9 +220,6 @@
 							</div>
 						</section>
 						<!--/About Sec-->		
-						
-
-						
 						<!--Profile Sec-->
 						<section id="profile_sec" class="profile-sec sec-pad-top-sm">
 							<h2 class="mb-30">Fields of Interest</h2>
@@ -259,6 +257,69 @@
 							</div>
 						</section>
 						<!--/Profile Sec-->
+<!--Portfolio Sec-->
+<section id="portfolio_sec" class="portfolio-sec sec-pad-top-sm">
+	<div class="mb-15">
+		<h2 class="pull-left float-none-xs">portfolio</h2>
+		<div class="filter-wrap pull-right float-none-xs">
+			<!-- Portfolio Filters --> 
+			<ul id="filters">
+				<li><a id="all" href="#" data-filter="*" class="active">all</a></li>	
+			
+			</ul>
+			<!--/Portfolio Filters -->
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="gallery-wrap mb-30">
+		
+		<div class="portfolio-wrap project-gallery">
+			<ul id="portfolio" class="portf auto-construct  project-gallery" data-col="3">
+				<a href="https://www.launchitnow.org">
+				<li  class="item mdl-card mdl-shadow--2dp pa-0 branding">
+					<div class="light-img-wrap mdl-card__title pa-0">
+						<img class="img-responsive" src="img/project-launchit.png"  alt="LaunchIt" />
+						<div class="light-img-overlay"></div>
+						<span class="img-cap-dark">LaunchIt.org</span>
+					</div>	
+					<span class="bottom-links mdl-card__actions">
+						
+						<a href="https://www.launchitnow.org/"><i class="zmdi zmdi-format-subject"></i></a>
+					</span>
+				</li>
+				</a>
+				<a href="https://graphgo.site/">
+				<li class="item mdl-card mdl-shadow--2dp pa-0  photography">
+					<div class="light-img-wrap mdl-card__title pa-0">
+						<img class="img-responsive" src="img/project-graphgo.png"  alt="Image description" />
+						<div class="light-img-overlay"></div>
+						<span class="img-cap-dark">GraphGo</span>
+					</div>
+					<span class="bottom-links mdl-card__actions">
+						<a href="https://graphgo.site/"><i class="zmdi zmdi-format-subject"></i></a>
+					</span>
+				</li>
+			</a>
+				
+				
+				
+				
+			</ul>
+			<!-- Hidden video div -->
+			<div style="display:none;" id="video1">
+				<video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
+					<source src="video/video1.mp4" type="video/webm">
+					<source src="video/video1.webm" type="video/webm">
+					 Your browser does not support HTML5 video.
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+<!--/Portfolio Sec-->
+						
+						
 						
 						<!--Skills Sec-->
 						<section id="skills_sec" class="skills-sec sec-pad-top-sm">
@@ -339,67 +400,7 @@
 						</section>
 						<!--/Skills Sec-->
 
-						<!--Portfolio Sec-->
-						<section id="portfolio_sec" class="portfolio-sec sec-pad-top-sm">
-							<div class="mb-15">
-								<h2 class="pull-left float-none-xs">portfolio</h2>
-								<div class="filter-wrap pull-right float-none-xs">
-									<!-- Portfolio Filters --> 
-									<ul id="filters">
-										<li><a id="all" href="#" data-filter="*" class="active">all</a></li>	
-									
-									</ul>
-									<!--/Portfolio Filters -->
-									<div class="clearfix"></div>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="gallery-wrap mb-30">
-								
-								<div class="portfolio-wrap project-gallery">
-									<ul id="portfolio" class="portf auto-construct  project-gallery" data-col="3">
-										<a href="https://www.launchitnow.org">
-										<li  class="item mdl-card mdl-shadow--2dp pa-0 branding">
-											<div class="light-img-wrap mdl-card__title pa-0">
-												<img class="img-responsive" src="img/project-launchit.png"  alt="LaunchIt" />
-												<div class="light-img-overlay"></div>
-												<span class="img-cap-dark">LaunchIt.org</span>
-											</div>	
-											<span class="bottom-links mdl-card__actions">
-												
-												<a href="https://www.launchitnow.org/"><i class="zmdi zmdi-format-subject"></i></a>
-											</span>
-										</li>
-										</a>
-										<a href="https://graphgo.site/">
-										<li class="item mdl-card mdl-shadow--2dp pa-0  photography">
-											<div class="light-img-wrap mdl-card__title pa-0">
-												<img class="img-responsive" src="img/project-graphgo.png"  alt="Image description" />
-												<div class="light-img-overlay"></div>
-												<span class="img-cap-dark">GraphGo</span>
-											</div>
-											<span class="bottom-links mdl-card__actions">
-												<a href="https://graphgo.site/"><i class="zmdi zmdi-format-subject"></i></a>
-											</span>
-										</li>
-									</a>
-										
-										
-										
-										
-									</ul>
-									<!-- Hidden video div -->
-									<div style="display:none;" id="video1">
-										<video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
-											<source src="video/video1.mp4" type="video/webm">
-											<source src="video/video1.webm" type="video/webm">
-											 Your browser does not support HTML5 video.
-										</video>
-									</div>
-								</div>
-							</div>
-						</section>
-						<!--/Portfolio Sec-->
+						
 											
 						<!--Experience Sec-->
 						<section id="experience_sec" class="experience-sec sec-pad-top-sm">
